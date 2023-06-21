@@ -1,0 +1,20 @@
+{
+  "name": "psychic-octo-rest-api",
+  "version": "1.0.0",
+  "description": "Rest API with Node / Express / MongoDB",
+  "main": "index.js",
+  "repository": "git@github.com:jvanmaaren/psychic-octo-rest-api.git",
+  "author": "Jorg van Maaren <j.vanmaaren@labdigital.nl>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
