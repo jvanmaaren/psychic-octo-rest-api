@@ -1,1 +1,30 @@
-GET http://localhost:3030/subscribers
+GET http://localhost:3030/subscribers/
+
+###
+
+GET http://localhost:3030/subscribers/64944247a6281368ffe54717
+
+###
+
+POST http://localhost:3030/subscribers/
+Content-type: application/json
+
+{
+    "name": "John",
+    "subscribedToChannel": "Somechannel"
+}
+
+
+###
+
+DELETE http://localhost:3030/subscribers/64944247a6281368ffe54717
+
+
+###
+
+PATCH http://localhost:3030/subscribers/64944247a6281368ffe54717
+Content-type: application/json
+
+{
+    "name": "Dave"
+}
