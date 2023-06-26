@@ -1,10 +1,12 @@
+### all subscribers
+
 GET http://localhost:3030/subscribers/
 
-###
+### get specific subscriber
 
 GET http://localhost:3030/subscribers/64944247a6281368ffe54717
 
-###
+### create new subscriber
 
 POST http://localhost:3030/subscribers/
 Content-type: application/json
@@ -15,12 +17,12 @@ Content-type: application/json
 }
 
 
-###
+### delete subscriber
 
 DELETE http://localhost:3030/subscribers/64944247a6281368ffe54717
 
 
-###
+### update info
 
 PATCH http://localhost:3030/subscribers/64944247a6281368ffe54717
 Content-type: application/json
